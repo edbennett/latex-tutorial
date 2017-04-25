@@ -8,13 +8,6 @@ permalink: /setup/
 
 Download and extract the sample materials from [here]({{page.root}}/files/files.zip)
 
-## ISS Desktop
-
-* Navigate to Specialist Apps > College of Science > Computer Science > LaTeX
-* Open TexStudio and JabRef
-* These will automatically install the first time you open them on any given computer.
-  It may take a few minutes.
-
 ## Windows
 
 * Download and install [MikTeX](https://www.miktex.org/)
