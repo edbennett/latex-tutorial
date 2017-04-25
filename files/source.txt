@@ -1,0 +1,162 @@
+% NEW CHAPTER
+Introduction
+
+Nulla porttitor sapien tellus,
+non             venenatis            augue                molestie
+eu.
+Phasellus dignissim sed ex a viverra. Integer aliquet eros lorem.
+Pellentesque habitant morbi tristique senectus et netus et malesuada
+fames ac turpis egestas. Morbi bibendum dictum odio blandit ultricies.
+Nulla bibendum justo felis, vitae mattis erat sollicitudin quis.
+Aenean fringilla nisi ut pretium sodales. Nullam dictum ac ante nec
+posuere. Nulla imperdiet sit amet felis nec eleifend.
+
+Vestibulum elementum accumsan arcu, at fringilla libero malesuada id.
+Cras laoreet ante ut "diam varius", eu blandit mauris cursus. Etiam egestas
+metus quis sodales suscipit. In "eros nibh", laoreet semper ligula pulvinar,
+finibus viverra turpis. Mauris semper nunc a eros tristique iaculis.
+Proin lectus metus, sodales id dictum dignissim, ornare eu ligula.
+Nullam 'non convallis' orci. Morbi sed nunc orci.
+
+The structure of the remainder of this report will be as follows: in chapter
+xxx relevant aspects of the theory will be presented, including morbi euismod
+dolor nunc and donec porta mi turpis. In chapter xxx, details of the experimental
+setup used will be discussed. Numerical results obtained from this are shown in
+chapter xxx, and discussed, and finally conclusions are drawn in chapter xxx.
+
+% NEW CHAPTER
+Theory
+
+Morbi lacinia lorem nisi, sit amet "iaculis tellus tristique" in.
+Nulla vulputate rhoncus lorem, ut sodales mauris dapibus vitae Schrodinger.
+Fusce at posuere metus. Curabitur vel leo risus. Cras gravida augue lacus,
+id facilisis sapien venenatis eget. In subsequent sections this will be
+developed further: in section yyy the theory of morbi euismod dolor nunc
+will be developed, while in section yyy the relevant results of donec
+porta mi turpis will be presented.
+
+% NEW SECTION
+Morbi euismod dolor nunc
+
+Et condimentum ex tincidunt ut. Vestibulum consequat mi id nisl dapibus,
+do rutrum dapibus nisi faucibus. Mauris porta fringilla tellus eget convallis.
+Proin vel tincidunt urna. Vivamus id massa at nulla varius sagittis m. % FIX THIS m
+Integer varius convallis tellus q, Poincare eget convallis nunc vulputate et. % FIX THIS q
+Curabitur auctor diam id ipsum finibus auctor m = e to the power 2 pi q / 3. Class aptent taciti sociosqu % inline equation
+ad litora torquent per conubia nostra, per inceptos himenaeos. Sed posuere dictum 
+faucibus.
+
+Quisque eleifend rutrum sagittis. In ornare sollicitudin placerat.
+Proin sit amet erat egestas, posuere tortor non, suscipit lacus.
+Sed id dolor non neque iaculis venenatis. Suspendisse vitae faucibus neque,
+in ullamcorper massa. Proin id quam felis. Fusce ac lobortis quam.
+Quisque eget purus sit amet mauris suscipit commodo. Integer ac varius enim.
+Nulla finibus purus eu varius mattis. Nulla dapibus eros at ante blandit dictum.
+Suspendisse utpat augue. Nullam non placerat odio. Ut imperdiet, dolor vitae
+porttitor condimentum, augue augue pretium tortor, quis aliquam nisi nisi mollis elit.
+Pellentesque est dolor, suscipit non posuere luctus, malesuada vel elit.
+
+% NEW SECTION
+Donec porta mi turpis
+
+Vitae dictum diam semper id. Nunc volutpat sed nibh sit amet eleifend.
+Maecenas scelerisque aliquet libero. Aliquam vel dolor ac arcu tristique semper.
+Maecenas velit velit, finibus nec dolor quis, ullamcorper lacinia lacus. Nam
+venenatis venenatis nisi sit amet pulvinar. Quisque at lacus maximus purus euismod
+% ADD DISPLAY EQUATION HERE
+finibus at id orci. In commodo venenatis ligula. Donec vel ante ultrices, porta
+nisi sit amet, dignissim tellus.
+
+Aliquam sit amet sem ac magna vestibulum condimentum. Mauris lobortis consequat nulla,
+sed accumsan purus condimentum ac. Morbi interdum erat leo, eu rutrum est ornare
+% ADD MULTILINE EQUATION HERE
+sed. Nullam vel hendrerit eros. Fusce justo erat, facilisis nec ex vel, cursus posuere libero.
+Integer sed imperdiet nibh.
+
+% NEW CHAPTER
+Experimental setup
+
+In condimentum ipsum mollis libero rhoncus, non lacinia lectus faucibus. Morbi at sagittis
+augue. Sed non enim ut tortor dapibus mollis. In sit amet leo accumsan, luctus sapien quis,
+dapibus ligula. Vivamus at erat viverra, vehicula nisi eu, rhoncus nisi. Sed sollicitudin
+erat sapien, sit amet lacinia lacus vestibulum eu. Vestibulum dignissim ex a posuere tempor.
+Nunc venenatis tortor eu auctor fringilla. Quisque id pulvinar nisl. Vivamus et felis sed
+lacus luctus egestas. Integer quam ligula, rutrum sed fringilla ac, laoreet bibendum augue.
+Vestibulum volutpat justo nibh, non interdum libero venenatis non. Aliquam sed est eget ipsum
+tempor blandit. Nunc posuere vel ipsum a pretium. Morbi placerat sodales lectus, eu consequat
+mi congue sit amet.
+
+In commodo iaculis purus, ac mattis risus blandit nec. In eu arcu neque. Proin rhoncus facilisis
+quam, at consectetur purus luctus et. Integer non nunc cursus, tristique felis vitae, tempus velit.
+Cras tincidunt nibh in ultrices scelerisque. Pellentesque semper sodales elit convallis hendrerit.
+Quisque vel mi metus. Nullam dui nibh, porta et tempor eget, tempor vitae mi. Donec sodales dignissim
+ligula, non mattis urna mattis et. Cras scelerisque, velit in suscipit molestie, ex diam bibendum
+ligula, eget consectetur sem diam nec urna. Etiam gravida orci metus. Integer tortor tellus,
+consectetur a lectus sed, aliquam pellentesque magna. Aliquam id sem varius, mollis justo ac,
+venenatis purus. Vestibulum et porta nunc. Donec vulputate sapien eu est tempus congue.
+
+Curabitur a scelerisque ante, sed scelerisque elit. Duis posuere accumsan ante sed efficitur.
+Nulla facilisi. Curabitur lobortis nibh ac mauris rhoncus dictum. Vivamus congue varius efficitur. 
+Sed tristique, libero quis lobortis scelerisque, dolor lacus suscipit sapien, ut mattis purus turpis
+egestas eros. Donec facilisis sit amet libero sed suscipit. Morbi convallis arcu ut accumsan sagittis.
+Sed rhoncus mattis lobortis. Maecenas vestibulum tortor malesuada est tempus congue. Suspendisse at
+ligula nulla. Donec massa augue, molestie commodo lectus nec, pulvinar efficitur eros. Morbi eu quam
+massa. Sed lobortis lacus et porta efficitur. Etiam mattis lorem et est posuere, vel blandit diam consectetur.
+
+% NEW CHAPTER
+Results
+
+Fusce dignissim dictum nunc, ut feugiat augue dignissim sed. Mauris ac dolor dapibus, iaculis lectus in,
+volutpat augue. Vivamus ultrices mattis ante at accumsan. Donec placerat dolor eget lectus facilisis,
+eget sodales massa pulvinar. Duis hendrerit viverra metus quis gravida. Curabitur eget tellus ac ex
+convallis pretium. Quisque blandit libero a ante porttitor suscipit. Aliquam non mi ac nulla viverra
+iaculis in eu purus. Curabitur bibendum metus in malesuada fringilla.
+
+Ut hendrerit lobortis ante, non facilisis nibh efficitur quis. Aliquam facilisis, nisi id ultrices
+molestie, tortor felis accumsan dolor, et consectetur tortor metus nec libero. Sed vitae aliquam sem.
+Nunc ipsum tortor, molestie vel mattis in, placerat a neque. Pellentesque at efficitur augue. In semper
+dictum tortor a mattis. Nulla pulvinar ligula id justo gravida, sit amet dignissim ante dapibus.
+Curabitur vulputate eu metus accumsan ultrices. Praesent elementum ligula lacus, non iaculis turpis
+cursus et. Nunc tempor vitae nunc sed convallis.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus
+finibus, enim quis dictum mattis, turpis tortor mollis lorem, nec mattis dolor dui et diam. Suspendisse
+luctus eros a libero elementum rhoncus. Vivamus sed orci vitae metus fringilla congue quis eu libero.
+Vivamus mattis, arcu in viverra elementum, felis nisi fermentum dui, ac iaculis diam eros sagittis quam.
+Maecenas eget facilisis orci. Nam sagittis gravida mauris, sit amet volutpat magna tempor a.
+
+% NEW CHAPTER
+Conclusions
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam sodales
+pretium vehicula. Nullam massa nibh, feugiat vel nibh vitae, euismod lacinia turpis. Etiam neque urna,
+pharetra in laoreet ac, vehicula sit amet risus. Ut metus ex, dignissim dictum pulvinar at, hendrerit
+quis purus. Maecenas rutrum varius libero, at feugiat purus interdum sed. Etiam libero neque, luctus
+in felis et, facilisis aliquet augue. Aliquam erat volutpat. Vivamus posuere commodo dolor, vitae semper
+diam lacinia eu. Integer eget odio diam. Donec ipsum enim, hendrerit id fermentum ut, bibendum ac turpis.
+Aliquam ullamcorper felis ac metus rutrum pretium. Aliquam rutrum feugiat massa, eu bibendum ex. Morbi
+tincidunt tempor laoreet. Nunc placerat rhoncus convallis. Duis sodales metus tincidunt bibendum sagittis.
+
+Suspendisse tincidunt massa eu neque interdum, nec consectetur dui mollis. Quisque aliquet erat non pretium
+vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent eget finibus velit.
+Pellentesque dignissim a arcu ut scelerisque. Pellentesque quis iaculis diam. Pellentesque at sagittis sem,
+in viverra velit.
+
+% NEW CHAPTER
+Derivation of the sagittis gravida mauris
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non nibh id purus facilisis aliquet nec nec
+massa. In rutrum enim ac ante auctor egestas. Pellentesque eleifend, risus eu mattis scelerisque, nisi
+nibh pulvinar eros, eget egestas tellus felis nec justo. Fusce tristique ligula leo, ut sodales erat
+volutpat id. Pellentesque tempor in erat a venenatis. Mauris ac posuere dolor. Vivamus porttitor euismod
+velit id pharetra. Duis ut vulputate odio, ac porta libero. Integer vel pellentesque ipsum. Cras lacus est,
+condimentum et massa eget, hendrerit tincidunt augue. Morbi luctus tempor sagittis. Duis varius orci et
+ultricies dapibus.
+
+Duis nec ligula ex. Nunc a lacus iaculis, finibus mauris id, iaculis turpis. Vestibulum malesuada placerat
+ornare. Donec feugiat quis augue quis sodales. Mauris vestibulum tellus et quam mollis ornare. Nulla vel
+urna at mi vulputate congue. Aenean a diam quis tellus molestie semper. Mauris rhoncus augue non enim commodo
+aliquam vel eget lorem. Sed egestas interdum ligula ut auctor. Praesent tristique lorem at lobortis molestie.
+Nulla magna magna, venenatis id luctus et, fringilla ut neque. Aliquam laoreet, orci non aliquet malesuada,
+augue felis eleifend ipsum, id fermentum eros sem eget lectus. Aliquam dignissim leo eu placerat sollicitudin.
+

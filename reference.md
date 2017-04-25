@@ -5,26 +5,27 @@ permalink: /reference/
 
 ## Glossary
 
-The glossary would go here, formatted as:
-
-~~~
 {:auto_ids}
-key word 1
-:   explanation 1
+beamer
+:   a class for producing slide decks in LaTeX
 
-key word 2
-:   explanation 2
-~~~
-{: .source}
+class
+:   a type of document that LaTeX knows how to produce. LaTeX comes with some classes built in, and you can download more.
 
-(`{:auto_ids}` is needed at the start
-so that Jekyll will automatically generate a unique ID for each item
-to allow other pages to hyperlink to specific glossary entries.)
-This renders as:
+dvi
+:   DeVice Independent file. Historically used as an intermediary file format between LaTeX and PostScript/PDF
 
-{:auto_ids}
-key word 1
-:   explanation 1
+float
+:   an environment that is detached from the main body of text, containing a table or figure
 
-key word 2
-:   explanation 2
+LaTeX
+:   an extensible markup language for producing high-quality scientific documents
+
+pdflatex
+:   a renderer for LaTeX that directly outputs PDF files
+
+TeX
+:   a markup language for producing scientific documents, with a focus on typography
+
+XeLaTeX
+:   a renderer for LaTeX that supports Unicode directly
