@@ -45,6 +45,7 @@ $color-testimonial: #fc8dc1 !default;
 .python { @include cdSetup($color-source); }
 .r      { @include cdSetup($color-source); }
 .sql    { @include cdSetup($color-source); }
+.tex    { @include cdSetup($color-source); }
 
 .error pre,
 .output pre,
