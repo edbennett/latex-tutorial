@@ -58,37 +58,74 @@ ignored the spacing we placed in the source code, and chosen the most appropriat
 
 Going back to the main document, look for the `% FIX THIS` comment, and adjust the lines so that the symbols referenced
 are in equation environments as we need them to be.
+### Greek, and other symbols
+
+Greek letters we access with a `\` and then the name of the letter.
+Both uppercase and lowercase letters are available, with the exception
+of those that look exactly like Latin letters. So `\pi` gives us a
+lowercase $$\pi$$,  while `\Pi` gives  us a capital $$\Pi$$.
+Similarly, $$\infty$$ is `\infty`, and $$\hbar$$ is `\hbar`.
+
+Operators are also available like this; e.g. `\pm$ is $$\pm$$,
+$$\ne$$ is `\ne`, and $$\Rightarrow$$ is `\Rightarrow`.
+For a complete gallery, see [this cheat sheet](http://reu.dimacs.rutgers.edu/Symbols.pdf).
+
+Some examples:
+
+* `$C = 2 \pi r$`
+* `$c = f \lambda$`
+* `$F = \mu R$`
 
 ### Superscripts and subscripts
 
-As you might expect, superscripts and subscripts are added using `^` and `_` respectively. However, these only apply
-to the next character; if you need more than one character to be superscripted (or subscripted), then you need to
-surround the group with curly braces. These can be nested, so you can have constructions like `e^{x^2 + y^2}`.
+As you might expect, superscripts and subscripts are added using `^` and `_` respectively.
+However, these only apply to the next character; if you need more than one character to be
+superscripted (or subscripted), then you need to surround the group with curly braces.
+These can be nested, so you can have constructions like `e^{x^2 + y^2}`. You can attach
+both a superscript and a subscript to the same object, but not more than one of each.
 
-Let's do this now; find the `% inline equation` comment, and correct the equation to display properly.
+Some examples:
+
+* `$ds^2 = dx^2 + dy^2 + dz^2 - dt^2$`
+* `$r_i^2 = x_i^2 + y_i^2$`
+* `$T_{\mu \nu} = T^{\alpha \beta} g_{\alpha\mu} g_{\beta \nu}$`
+
+Let's try this now; find the `% inline equation` comment, and correct the equation to display properly.
 
 ### Standard functions
 
 If we try to use a standard function, e.g. sin, we see that it looks like we are trying to multiply the
-individual letters $$s$,, $$i$$, and $$n$$. Since this isn't what we want, we precede the `sin` with a `\`
+individual letters $$s$$,, $$i$$, and $$n$$. Since this isn't what we want, we precede the `sin` with a `\`
 to instead make it a command. This makes it display in the upright formatting that we expect.
 
-### Greek
+Some examples:
 
-Greek letters we access with a `\` and then the name of the letter. Both uppercase and lowercase letters are available,
-with the exception of those that look exactly like Latin letters. So `\pi` gives us a lowercase $$\pi$$, while `\Pi` gives
-us a capital $$\Pi$$. Similarly, $$\infty$$ is `\infty`.
+* `$\sin^2 \alpha + \cos^2 \alpha = 1$`
+* `$\ln e = \log_10 10 = \exp(0) = 1$`
+* `$\det A = 0$`
 
 ### Fractions and surds
 
 We also have access to fractions, `\frac{}{}`, where the first set of curly braces contain the numerator, and the
 second the denominator. We also have `\sqrt{}`, which gives a square root above the contents of the curly braces.
 
+Some examples:
+
+* `$\sec \omega = \sqrt{1 - \tan^2 \omega}$`
+* `$\frac{\sin \beta}{\cos \beta} = \tan \beta$`
+* `$e^w = \sqrt{\frac{1 + \frac{v}{c}}{1 - \frac{v}{c}}}$`
+
 ### $$N$$-ary operators
 
 `\sum`, `\int`, and `\prod` should be used for summations, integrals, and products respectively. Add limits using
 superscripts and subscripts. These look like symbols for now; in the next section we will see how they differ.
 Limits work in the same way; use `\lim` with a subscript.
+
+Some examples:
+
+* `$\sigma^2 = \sum_i \frac{(x_i - X)^2}{\varepsilon^2}$`
+* `$V = \int_0^{2\pi} \int_0^\pi \int_0^r r^2 \sin \theta\ dr\ d\theta\ dphi$`
+* `$\frac{d}{dx}f(x) = \lim_{\delta x \rightarow 0} \frac{f(x + \delta x) - f(x)}{\delta x}$`
 
 ### Upright text
 
@@ -130,6 +167,12 @@ Let's add a display equation to the document now. Place the following equation i
 
 $$\frac{\sum_i p_i O(C_i)}{\sum_i p_i} = \langle O \rangle = \lim_{N\rightarrow \infty} \frac{1}{N} \sum_{i=1}^{N} O(C_j)$$
 
+~~~
+\begin{equation}
+    \frac{\sum_i p_i O(C_i)}{\sum_i p_i} = \langle O \rangle = \lim_{N\rightarrow \infty} \frac{1}{N} \sum_{i=1}^{N} O(C_j)
+\end{equation}
+~~~
+{: .tex}
 
 ### Multi-line equations
 
@@ -140,7 +183,12 @@ an inequality). If more than one `&` is present on a line, then LaTeX creates tw
 
 Let's try and make this equation fit into the document nicely:
 
-$$\langle O \rangle = \frac{\int O(x) e^{-\beta ' H(x)}dx}{e^{-\beta' H(x)} dx} = \frac{\int O(x) e^{-(\beta ' - \beta)H(x)} E^{-\beta H(x)}dx}{\int e^{-(\beta'-\beta)H(x)}e^{-\beta H(x)}dx} = \frac{\left\langle O(x)e^{-(\beta'-\beta)H(x)}\right\rangle}{\left\langle e^{-(\beta'-\beta)H(x)}\right\rangle}$$
+~~~
+\begin{equation}
+\langle O \rangle = \frac{\int O(x) e^{-\beta ' H(x)}dx}{e^{-\beta' H(x)} dx} = \frac{\int O(x) e^{-(\beta ' - \beta)H(x)} e^{-\beta H(x)}dx}{\int e^{-(\beta'-\beta)H(x)}e^{-\beta H(x)}dx} = \frac{\left\langle O(x)e^{-(\beta'-\beta)H(x)}\right\rangle}{\left\langle e^{-(\beta'-\beta)H(x)}\right\rangle}
+\end{equation}
+~~~
+{: .tex}
 
 ## Cross-referencing equations
 
@@ -199,6 +247,27 @@ use the number.
 > > \end{align}
 > > ~~~
 > > {: .tex}
+> {: .solution}
+{: .challenge}
+
+> ## Sequential indices in General Relativity
+>
+> In General Relativity (and possibly some other fields), indices must be
+> kept in order; you can't have indices one above the other like LaTeX
+> does. For example, $$\Gamma^c_{ab}$$ (`$\Gamma^c_{ab}$`) isn't valid.
+>
+> How can you make these display properly; i.e. as $$\Gamma^c{}_{ab}$$?
+>
+> > ## Answer
+> >
+> > The trick is to add an empty `{}` to hang the successive indices off; i.e.
+> >
+> > ~~~
+> > $\Gamma^c{}_{ab}$
+> > ~~~
+> > {: .tex}
+> >
+> > (If you ever have very tall objects so this fails, then you'll need to look up `\vphantom`.)
 > {: .solution}
 {: .challenge}
 
